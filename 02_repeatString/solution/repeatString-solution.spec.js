@@ -30,8 +30,7 @@ describe('repeatString', () => {
     in the result, which if your function works correctly will equal the number that
     was randomly generated. */
     expect(repeatString('odin', number).match(/((odin))/g).length).toEqual(
-      number
-    );
+      number);
   });
   test('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
